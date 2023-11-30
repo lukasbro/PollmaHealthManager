@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0ABA2C269F0F230094CA02 /* WeatherCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0ABA2B269F0F230094CA02 /* WeatherCardContent.swift */; };
+		8D0ABA32269F2B550094CA02 /* PollenCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0ABA31269F2B550094CA02 /* PollenCardContent.swift */; };
+		8D0ABA34269F40EC0094CA02 /* PollenForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0ABA33269F40EC0094CA02 /* PollenForecastView.swift */; };
+		8D1286C226B16F7200AA8507 /* AllergieItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1286C126B16F7200AA8507 /* AllergieItemModel.swift */; };
+		8D1286C426B16FAB00AA8507 /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1286C326B16FAB00AA8507 /* SettingsViewViewModel.swift */; };
+		8D1286C726B1766600AA8507 /* UserDefaultModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D1286C526B1766600AA8507 /* UserDefaultModel.xcdatamodeld */; };
+		8D135A1426AD5EB1002D625B /* MedicationViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D135A1326AD5EB1002D625B /* MedicationViewViewModel.swift */; };
+		8D135A1626AD5F10002D625B /* MedicationEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D135A1526AD5F10002D625B /* MedicationEditView.swift */; };
+		8D1ADABA26A81AB700B17D32 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1ADAB926A81AB700B17D32 /* StatisticsView.swift */; };
+		8D1BD0FE26A9FDAA00A82AAC /* WeatherForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BD0FD26A9FDAA00A82AAC /* WeatherForecastView.swift */; };
+		8D23F32926B3119500CAB91D /* MediModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D23F32726B3119500CAB91D /* MediModel.xcdatamodeld */; };
+		8D4483D326AEAE5400985E3A /* DokuEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4483D226AEAE5400985E3A /* DokuEditView.swift */; };
+		8D4483D526AEB6B000985E3A /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4483D426AEB6B000985E3A /* RatingView.swift */; };
+		8D64D42E26B0AE7700FF7894 /* PollenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D64D42D26B0AE7700FF7894 /* PollenModel.swift */; };
+		8D77424D26A9A3AB007D5DCB /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77424C26A9A3AB007D5DCB /* CustomDatePicker.swift */; };
+		8D89DEAE26B01184006F204A /* PollenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D89DEAD26B01184006F204A /* PollenAPI.swift */; };
+		8DA4BD9226AEE29800C44EAF /* DokuViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BD9126AEE29800C44EAF /* DokuViewViewModel.swift */; };
+		8DA4BD9526AEE3EB00C44EAF /* DokuModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4BD9326AEE3EB00C44EAF /* DokuModel.xcdatamodeld */; };
+		8DC5687D26A9B19F00DAC83F /* WeatherViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5687C26A9B19F00DAC83F /* WeatherViewViewModel.swift */; };
+		8DC5688226A9B27300DAC83F /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5688126A9B27300DAC83F /* WeatherModel.swift */; };
+		8DC5688D26A9B5AF00DAC83F /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5688C26A9B5AF00DAC83F /* WeatherAPI.swift */; };
+		8DC5688F26A9B5D700DAC83F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5688E26A9B5D700DAC83F /* NetworkManager.swift */; };
+		8DC679B026B4467200A9A44C /* SavedEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC679AF26B4467200A9A44C /* SavedEntryView.swift */; };
+		8DC679B326B46B2900A9A44C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC679B226B46B2900A9A44C /* CustomButton.swift */; };
+		8DC679B526B46B6100A9A44C /* XMarkCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC679B426B46B6100A9A44C /* XMarkCircle.swift */; };
+		8DC679B726B46B8000A9A44C /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC679B626B46B8000A9A44C /* AddEntryView.swift */; };
+		8DC679B926B46BA300A9A44C /* KeyBoardDownIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC679B826B46BA300A9A44C /* KeyBoardDownIcon.swift */; };
+		8DC679BB26B473AF00A9A44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC679BA26B473AF00A9A44C /* LaunchScreen.storyboard */; };
+		8DD2BE1B26A87A460090CB4F /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD2BE1A26A87A460090CB4F /* LinkButton.swift */; };
+		8DD2BE1D26A880F90090CB4F /* CustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD2BE1C26A880F90090CB4F /* CustomViewModifiers.swift */; };
+		8DEA943026B4A35E0018EB6D /* MediEinnahmeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA942F26B4A35E0018EB6D /* MediEinnahmeView.swift */; };
+		8DEA943226B4A80C0018EB6D /* MediItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA943126B4A80C0018EB6D /* MediItemView.swift */; };
+		8DF787A2269D9B1300FACCCF /* PollmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787A1269D9B1300FACCCF /* PollmaApp.swift */; };
+		8DF787A4269D9B1300FACCCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787A3269D9B1300FACCCF /* ContentView.swift */; };
+		8DF787A6269D9B1300FACCCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF787A5269D9B1300FACCCF /* Assets.xcassets */; };
+		8DF787A9269D9B1300FACCCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF787A8269D9B1300FACCCF /* Preview Assets.xcassets */; };
+		8DF787B2269D9B9E00FACCCF /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787B1269D9B9E00FACCCF /* FontModifier.swift */; };
+		8DF787B8269D9C7F00FACCCF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787B7269D9C7F00FACCCF /* SettingsView.swift */; };
+		8DF787BA269D9C8C00FACCCF /* DocumentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787B9269D9C8C00FACCCF /* DocumentationView.swift */; };
+		8DF787BC269D9C9600FACCCF /* MedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787BB269D9C9600FACCCF /* MedicationView.swift */; };
+		8DF787BE269D9D5C00FACCCF /* PollenWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787BD269D9D5C00FACCCF /* PollenWeatherView.swift */; };
+		8DF787C0269D9FD800FACCCF /* BackgroundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787BF269D9FD800FACCCF /* BackgroundViews.swift */; };
+		8DF787C3269DA16100FACCCF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787C2269DA16000FACCCF /* HeaderView.swift */; };
+		8DF787C5269DA19000FACCCF /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787C4269DA19000FACCCF /* SearchBarView.swift */; };
+		8DF787C7269DA1C000FACCCF /* InfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787C6269DA1C000FACCCF /* InfoSheetView.swift */; };
+		8DF787C9269DA30F00FACCCF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF787C8269DA30F00FACCCF /* Colors.xcassets */; };
+		8DF787CD269DA4E700FACCCF /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787CC269DA4E700FACCCF /* CustomColor.swift */; };
+		8DF787CF269DB95C00FACCCF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF787CE269DB95C00FACCCF /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D0ABA2B269F0F230094CA02 /* WeatherCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardContent.swift; sourceTree = "<group>"; };
+		8D0ABA31269F2B550094CA02 /* PollenCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollenCardContent.swift; sourceTree = "<group>"; };
+		8D0ABA33269F40EC0094CA02 /* PollenForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollenForecastView.swift; sourceTree = "<group>"; };
+		8D1286C126B16F7200AA8507 /* AllergieItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergieItemModel.swift; sourceTree = "<group>"; };
+		8D1286C326B16FAB00AA8507 /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
+		8D1286C626B1766600AA8507 /* UserDefaultModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDefaultModel.xcdatamodel; sourceTree = "<group>"; };
+		8D135A1326AD5EB1002D625B /* MedicationViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewViewModel.swift; sourceTree = "<group>"; };
+		8D135A1526AD5F10002D625B /* MedicationEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationEditView.swift; sourceTree = "<group>"; };
+		8D1ADAB926A81AB700B17D32 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		8D1BD0FD26A9FDAA00A82AAC /* WeatherForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastView.swift; sourceTree = "<group>"; };
+		8D23F32826B3119500CAB91D /* MediModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediModel.xcdatamodel; sourceTree = "<group>"; };
+		8D4483D226AEAE5400985E3A /* DokuEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DokuEditView.swift; sourceTree = "<group>"; };
+		8D4483D426AEB6B000985E3A /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		8D64D42D26B0AE7700FF7894 /* PollenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollenModel.swift; sourceTree = "<group>"; };
+		8D77424C26A9A3AB007D5DCB /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		8D89DEAD26B01184006F204A /* PollenAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollenAPI.swift; sourceTree = "<group>"; };
+		8D9C687626B1BA340049E459 /* Wiesbaden.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Wiesbaden.gpx; sourceTree = "<group>"; };
+		8DA4BD9126AEE29800C44EAF /* DokuViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DokuViewViewModel.swift; sourceTree = "<group>"; };
+		8DA4BD9426AEE3EB00C44EAF /* DokuModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DokuModel.xcdatamodel; sourceTree = "<group>"; };
+		8DC5687C26A9B19F00DAC83F /* WeatherViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewViewModel.swift; sourceTree = "<group>"; };
+		8DC5688126A9B27300DAC83F /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		8DC5688C26A9B5AF00DAC83F /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		8DC5688E26A9B5D700DAC83F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8DC679AF26B4467200A9A44C /* SavedEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedEntryView.swift; sourceTree = "<group>"; };
+		8DC679B226B46B2900A9A44C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8DC679B426B46B6100A9A44C /* XMarkCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkCircle.swift; sourceTree = "<group>"; };
+		8DC679B626B46B8000A9A44C /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
+		8DC679B826B46BA300A9A44C /* KeyBoardDownIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardDownIcon.swift; sourceTree = "<group>"; };
+		8DC679BA26B473AF00A9A44C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DD2BE1A26A87A460090CB4F /* LinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
+		8DD2BE1C26A880F90090CB4F /* CustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiers.swift; sourceTree = "<group>"; };
+		8DEA942F26B4A35E0018EB6D /* MediEinnahmeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediEinnahmeView.swift; sourceTree = "<group>"; };
+		8DEA943126B4A80C0018EB6D /* MediItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediItemView.swift; sourceTree = "<group>"; };
+		8DF7879E269D9B1300FACCCF /* Pollma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF787A1269D9B1300FACCCF /* PollmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollmaApp.swift; sourceTree = "<group>"; };
+		8DF787A3269D9B1300FACCCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DF787A5269D9B1300FACCCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DF787A8269D9B1300FACCCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DF787AA269D9B1300FACCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF787B1269D9B9E00FACCCF /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
+		8DF787B7269D9C7F00FACCCF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8DF787B9269D9C8C00FACCCF /* DocumentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationView.swift; sourceTree = "<group>"; };
+		8DF787BB269D9C9600FACCCF /* MedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationView.swift; sourceTree = "<group>"; };
+		8DF787BD269D9D5C00FACCCF /* PollenWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollenWeatherView.swift; sourceTree = "<group>"; };
+		8DF787BF269D9FD800FACCCF /* BackgroundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViews.swift; sourceTree = "<group>"; };
+		8DF787C2269DA16000FACCCF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8DF787C4269DA19000FACCCF /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		8DF787C6269DA1C000FACCCF /* InfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSheetView.swift; sourceTree = "<group>"; };
+		8DF787C8269DA30F00FACCCF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		8DF787CC269DA4E700FACCCF /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		8DF787CE269DB95C00FACCCF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DF7879B269D9B1300FACCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D64DC9326B36E94006047BB /* Views_Shared-Elements */ = {
+			isa = PBXGroup;
+			children = (
+				8DC679B126B46B1300A9A44C /* Shared Views */,
+				8DF787B0269D9B6200FACCCF /* Custom Modifiers */,
+				8DF787C1269D9FE100FACCCF /* Background Views */,
+			);
+			path = "Views_Shared-Elements";
+			sourceTree = "<group>";
+		};
+		8D800662269F85A2000C9873 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				8DF787C2269DA16000FACCCF /* HeaderView.swift */,
+				8DF787C4269DA19000FACCCF /* SearchBarView.swift */,
+				8DF787C6269DA1C000FACCCF /* InfoSheetView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		8D800665269F85C3000C9873 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				8D0ABA2B269F0F230094CA02 /* WeatherCardContent.swift */,
+				8D1BD0FD26A9FDAA00A82AAC /* WeatherForecastView.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		8D800666269F85D2000C9873 /* Pollen */ = {
+			isa = PBXGroup;
+			children = (
+				8D0ABA31269F2B550094CA02 /* PollenCardContent.swift */,
+				8D0ABA33269F40EC0094CA02 /* PollenForecastView.swift */,
+			);
+			path = Pollen;
+			sourceTree = "<group>";
+		};
+		8D89DEAF26B037E3006F204A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DF787BD269D9D5C00FACCCF /* PollenWeatherView.swift */,
+				8DC5688B26A9B48F00DAC83F /* Subviews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DC5687B26A9B18000DAC83F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DC5687C26A9B19F00DAC83F /* WeatherViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DC5687E26A9B1B200DAC83F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DC5688126A9B27300DAC83F /* WeatherModel.swift */,
+				8D64D42D26B0AE7700FF7894 /* PollenModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DC5688926A9B3D300DAC83F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8DC5688C26A9B5AF00DAC83F /* WeatherAPI.swift */,
+				8D89DEAD26B01184006F204A /* PollenAPI.swift */,
+				8DC5688E26A9B5D700DAC83F /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8DC5688B26A9B48F00DAC83F /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				8D800662269F85A2000C9873 /* Header */,
+				8D800665269F85C3000C9873 /* Weather */,
+				8D800666269F85D2000C9873 /* Pollen */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		8DC679A826B4415700A9A44C /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				8DC679AF26B4467200A9A44C /* SavedEntryView.swift */,
+				8D4483D226AEAE5400985E3A /* DokuEditView.swift */,
+				8D4483D426AEB6B000985E3A /* RatingView.swift */,
+				8D1ADAB926A81AB700B17D32 /* StatisticsView.swift */,
+				8D77424C26A9A3AB007D5DCB /* CustomDatePicker.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		8DC679A926B4416A00A9A44C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DF787B7269D9C7F00FACCCF /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DC679AA26B4417100A9A44C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D1286C326B16FAB00AA8507 /* SettingsViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DC679AB26B4417B00A9A44C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D1286C126B16F7200AA8507 /* AllergieItemModel.swift */,
+				8D1286C526B1766600AA8507 /* UserDefaultModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DC679AC26B441D800A9A44C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4BD9126AEE29800C44EAF /* DokuViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DC679AD26B441E000A9A44C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DF787B9269D9C8C00FACCCF /* DocumentationView.swift */,
+				8DC679A826B4415700A9A44C /* Subviews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DC679AE26B441F200A9A44C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4BD9326AEE3EB00C44EAF /* DokuModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DC679B126B46B1300A9A44C /* Shared Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DC679B226B46B2900A9A44C /* CustomButton.swift */,
+				8DD2BE1A26A87A460090CB4F /* LinkButton.swift */,
+				8DC679B826B46BA300A9A44C /* KeyBoardDownIcon.swift */,
+				8DC679B426B46B6100A9A44C /* XMarkCircle.swift */,
+				8DC679B626B46B8000A9A44C /* AddEntryView.swift */,
+			);
+			path = "Shared Views";
+			sourceTree = "<group>";
+		};
+		8DEA942B26B4A06C0018EB6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DF787BB269D9C9600FACCCF /* MedicationView.swift */,
+				8DEA942E26B4A0B50018EB6D /* Subviews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DEA942C26B4A0810018EB6D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D135A1326AD5EB1002D625B /* MedicationViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DEA942D26B4A0890018EB6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D23F32726B3119500CAB91D /* MediModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DEA942E26B4A0B50018EB6D /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				8DEA942F26B4A35E0018EB6D /* MediEinnahmeView.swift */,
+				8DEA943126B4A80C0018EB6D /* MediItemView.swift */,
+				8D135A1526AD5F10002D625B /* MedicationEditView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		8DF78795269D9B1300FACCCF = {
+			isa = PBXGroup;
+			children = (
+				8DF787A0269D9B1300FACCCF /* Pollma */,
+				8DF7879F269D9B1300FACCCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DF7879F269D9B1300FACCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF7879E269D9B1300FACCCF /* Pollma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF787A0269D9B1300FACCCF /* Pollma */ = {
+			isa = PBXGroup;
+			children = (
+				8DF787A1269D9B1300FACCCF /* PollmaApp.swift */,
+				8DF787A3269D9B1300FACCCF /* ContentView.swift */,
+				8DF787B3269D9C1100FACCCF /* View1_Pollen-Weather */,
+				8DF787B4269D9C1F00FACCCF /* View2_Medication-Manager */,
+				8DF787B5269D9C5C00FACCCF /* View3_Symptom-Doku */,
+				8DF787B6269D9C6B00FACCCF /* View4_Profile */,
+				8D64DC9326B36E94006047BB /* Views_Shared-Elements */,
+				8DC5688926A9B3D300DAC83F /* Networking */,
+				8DC679BA26B473AF00A9A44C /* LaunchScreen.storyboard */,
+				8D9C687626B1BA340049E459 /* Wiesbaden.gpx */,
+				8DF787C8269DA30F00FACCCF /* Colors.xcassets */,
+				8DF787A5269D9B1300FACCCF /* Assets.xcassets */,
+				8DF787AA269D9B1300FACCCF /* Info.plist */,
+				8DF787A7269D9B1300FACCCF /* Preview Content */,
+			);
+			path = Pollma;
+			sourceTree = "<group>";
+		};
+		8DF787A7269D9B1300FACCCF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DF787A8269D9B1300FACCCF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DF787B0269D9B6200FACCCF /* Custom Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8DF787B1269D9B9E00FACCCF /* FontModifier.swift */,
+				8DF787CC269DA4E700FACCCF /* CustomColor.swift */,
+				8DD2BE1C26A880F90090CB4F /* CustomViewModifiers.swift */,
+			);
+			path = "Custom Modifiers";
+			sourceTree = "<group>";
+		};
+		8DF787B3269D9C1100FACCCF /* View1_Pollen-Weather */ = {
+			isa = PBXGroup;
+			children = (
+				8D89DEAF26B037E3006F204A /* View */,
+				8DC5687B26A9B18000DAC83F /* ViewModel */,
+				8DC5687E26A9B1B200DAC83F /* Models */,
+			);
+			path = "View1_Pollen-Weather";
+			sourceTree = "<group>";
+		};
+		8DF787B4269D9C1F00FACCCF /* View2_Medication-Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8DEA942B26B4A06C0018EB6D /* View */,
+				8DEA942C26B4A0810018EB6D /* ViewModel */,
+				8DEA942D26B4A0890018EB6D /* Model */,
+			);
+			path = "View2_Medication-Manager";
+			sourceTree = "<group>";
+		};
+		8DF787B5269D9C5C00FACCCF /* View3_Symptom-Doku */ = {
+			isa = PBXGroup;
+			children = (
+				8DC679AD26B441E000A9A44C /* View */,
+				8DC679AC26B441D800A9A44C /* ViewModel */,
+				8DC679AE26B441F200A9A44C /* Model */,
+			);
+			path = "View3_Symptom-Doku";
+			sourceTree = "<group>";
+		};
+		8DF787B6269D9C6B00FACCCF /* View4_Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8DC679A926B4416A00A9A44C /* View */,
+				8DC679AA26B4417100A9A44C /* ViewModel */,
+				8DC679AB26B4417B00A9A44C /* Models */,
+			);
+			path = View4_Profile;
+			sourceTree = "<group>";
+		};
+		8DF787C1269D9FE100FACCCF /* Background Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DF787CE269DB95C00FACCCF /* CardView.swift */,
+				8DF787BF269D9FD800FACCCF /* BackgroundViews.swift */,
+			);
+			path = "Background Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DF7879D269D9B1300FACCCF /* Pollma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF787AD269D9B1300FACCCF /* Build configuration list for PBXNativeTarget "Pollma" */;
+			buildPhases = (
+				8DF7879A269D9B1300FACCCF /* Sources */,
+				8DF7879B269D9B1300FACCCF /* Frameworks */,
+				8DF7879C269D9B1300FACCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pollma;
+			productName = PollmaV2;
+			productReference = 8DF7879E269D9B1300FACCCF /* Pollma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DF78796269D9B1300FACCCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8DF7879D269D9B1300FACCCF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 8DF78799269D9B1300FACCCF /* Build configuration list for PBXProject "Pollma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DF78795269D9B1300FACCCF;
+			productRefGroup = 8DF7879F269D9B1300FACCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DF7879D269D9B1300FACCCF /* Pollma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DF7879C269D9B1300FACCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF787C9269DA30F00FACCCF /* Colors.xcassets in Resources */,
+				8DF787A9269D9B1300FACCCF /* Preview Assets.xcassets in Resources */,
+				8DC679BB26B473AF00A9A44C /* LaunchScreen.storyboard in Resources */,
+				8DF787A6269D9B1300FACCCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DF7879A269D9B1300FACCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF787C5269DA19000FACCCF /* SearchBarView.swift in Sources */,
+				8D77424D26A9A3AB007D5DCB /* CustomDatePicker.swift in Sources */,
+				8DEA943226B4A80C0018EB6D /* MediItemView.swift in Sources */,
+				8DEA943026B4A35E0018EB6D /* MediEinnahmeView.swift in Sources */,
+				8D0ABA32269F2B550094CA02 /* PollenCardContent.swift in Sources */,
+				8DF787BE269D9D5C00FACCCF /* PollenWeatherView.swift in Sources */,
+				8D0ABA2C269F0F230094CA02 /* WeatherCardContent.swift in Sources */,
+				8DF787C3269DA16100FACCCF /* HeaderView.swift in Sources */,
+				8DF787CD269DA4E700FACCCF /* CustomColor.swift in Sources */,
+				8D1BD0FE26A9FDAA00A82AAC /* WeatherForecastView.swift in Sources */,
+				8DD2BE1B26A87A460090CB4F /* LinkButton.swift in Sources */,
+				8D135A1626AD5F10002D625B /* MedicationEditView.swift in Sources */,
+				8D1286C226B16F7200AA8507 /* AllergieItemModel.swift in Sources */,
+				8DA4BD9226AEE29800C44EAF /* DokuViewViewModel.swift in Sources */,
+				8D0ABA34269F40EC0094CA02 /* PollenForecastView.swift in Sources */,
+				8D4483D526AEB6B000985E3A /* RatingView.swift in Sources */,
+				8DC5688D26A9B5AF00DAC83F /* WeatherAPI.swift in Sources */,
+				8DC5688F26A9B5D700DAC83F /* NetworkManager.swift in Sources */,
+				8DC679B526B46B6100A9A44C /* XMarkCircle.swift in Sources */,
+				8DC679B726B46B8000A9A44C /* AddEntryView.swift in Sources */,
+				8DA4BD9526AEE3EB00C44EAF /* DokuModel.xcdatamodeld in Sources */,
+				8D64D42E26B0AE7700FF7894 /* PollenModel.swift in Sources */,
+				8DF787C7269DA1C000FACCCF /* InfoSheetView.swift in Sources */,
+				8D23F32926B3119500CAB91D /* MediModel.xcdatamodeld in Sources */,
+				8DF787BA269D9C8C00FACCCF /* DocumentationView.swift in Sources */,
+				8D1286C726B1766600AA8507 /* UserDefaultModel.xcdatamodeld in Sources */,
+				8DC5687D26A9B19F00DAC83F /* WeatherViewViewModel.swift in Sources */,
+				8DF787C0269D9FD800FACCCF /* BackgroundViews.swift in Sources */,
+				8DF787CF269DB95C00FACCCF /* CardView.swift in Sources */,
+				8DF787BC269D9C9600FACCCF /* MedicationView.swift in Sources */,
+				8D89DEAE26B01184006F204A /* PollenAPI.swift in Sources */,
+				8D1ADABA26A81AB700B17D32 /* StatisticsView.swift in Sources */,
+				8D1286C426B16FAB00AA8507 /* SettingsViewViewModel.swift in Sources */,
+				8DC679B326B46B2900A9A44C /* CustomButton.swift in Sources */,
+				8DC679B026B4467200A9A44C /* SavedEntryView.swift in Sources */,
+				8DC5688226A9B27300DAC83F /* WeatherModel.swift in Sources */,
+				8D4483D326AEAE5400985E3A /* DokuEditView.swift in Sources */,
+				8DD2BE1D26A880F90090CB4F /* CustomViewModifiers.swift in Sources */,
+				8DF787A4269D9B1300FACCCF /* ContentView.swift in Sources */,
+				8D135A1426AD5EB1002D625B /* MedicationViewViewModel.swift in Sources */,
+				8DF787B8269D9C7F00FACCCF /* SettingsView.swift in Sources */,
+				8DF787A2269D9B1300FACCCF /* PollmaApp.swift in Sources */,
+				8DF787B2269D9B9E00FACCCF /* FontModifier.swift in Sources */,
+				8DC679B926B46BA300A9A44C /* KeyBoardDownIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DF787AB269D9B1300FACCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DF787AC269D9B1300FACCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DF787AE269D9B1300FACCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pollma/Preview Content\"";
+				DEVELOPMENT_TEAM = VRA95M3AKZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pollma/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukasbroening.PollmaV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DF787AF269D9B1300FACCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pollma/Preview Content\"";
+				DEVELOPMENT_TEAM = VRA95M3AKZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pollma/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukasbroening.PollmaV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DF78799269D9B1300FACCCF /* Build configuration list for PBXProject "Pollma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF787AB269D9B1300FACCCF /* Debug */,
+				8DF787AC269D9B1300FACCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF787AD269D9B1300FACCCF /* Build configuration list for PBXNativeTarget "Pollma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF787AE269D9B1300FACCCF /* Debug */,
+				8DF787AF269D9B1300FACCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D1286C526B1766600AA8507 /* UserDefaultModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D1286C626B1766600AA8507 /* UserDefaultModel.xcdatamodel */,
+			);
+			currentVersion = 8D1286C626B1766600AA8507 /* UserDefaultModel.xcdatamodel */;
+			path = UserDefaultModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		8D23F32726B3119500CAB91D /* MediModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D23F32826B3119500CAB91D /* MediModel.xcdatamodel */,
+			);
+			currentVersion = 8D23F32826B3119500CAB91D /* MediModel.xcdatamodel */;
+			path = MediModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		8DA4BD9326AEE3EB00C44EAF /* DokuModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DA4BD9426AEE3EB00C44EAF /* DokuModel.xcdatamodel */,
+			);
+			currentVersion = 8DA4BD9426AEE3EB00C44EAF /* DokuModel.xcdatamodel */;
+			path = DokuModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DF78796269D9B1300FACCCF /* Project object */;
+}
